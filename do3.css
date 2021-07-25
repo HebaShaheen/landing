@@ -1,0 +1,392 @@
+body{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'montserrat', sans-serif;
+        width: 100%;
+    }
+    .continer{
+        width: 1100px;
+        margin: auto
+    }
+    .clear{clear: both}
+    /*******************/
+    section.header{
+        height: 650px;
+        background-image: url(header-bg.jpg);
+        background-size: cover;
+     
+    }
+    .head{
+        padding: 30px;
+        margin-bottom: 0px;
+    }
+    .head img{
+        float: left;
+    
+        
+    }
+    .head nav{
+        float: right;
+    }
+    .head nav ul{
+        list-style: none;
+    }
+    .head nav ul li{
+        display: inline-block;
+        padding-left: 10px;
+        
+    }
+    .head nav li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+    .cont{
+        text-align: center;
+        margin-top: 160px;
+        line-height: 1.5;
+    }
+    .cont h1{
+        font-size: 50px;
+        color: #fff;
+        margin-bottom: 10px;
+        
+    }
+    .cont p{
+        color: #eee;
+        font-size: 22px;
+    }
+    .cont button{
+        width: 150px;
+        height: 50px;
+        padding: 10px 10px;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        margin-left: 20px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        background: #fff;
+        font-weight: bold;
+        border-radius: 5px;
+        
+    }
+    
+    #b{
+        background-color: darkturquoise;     /*   #8be2e5   */
+        color: #fff;
+        
+    }
+    #b:hover{
+        background-color:aqua;
+        transition: all 0.5s ease-in-out;
+    }
+    .ana{
+        width:30px;
+        height: 55px;
+        margin-left: 49%;
+        margin-top: 60px;
+        border:2px solid #fff;
+        border-radius: 18px;
+    }
+    
+    .scrool{
+        width: 3px;
+        height: 10px;
+        background:#fff;
+        margin: auto;
+        border-radius: 50px;
+        position: relative;
+        top:4px;
+        animation: scrolling 2s ease-in-out infinite;
+    }
+    @keyframes scrolling{
+        0%{
+            opacity: 0;
+            top:3px;
+        }
+        10%{
+            opacity: 1;
+            top:6px;
+        }
+        25%{
+            opacity: 0;
+            top:12px;
+        }
+        45%{
+            opacity: 1;
+            top:18px;
+        }
+        75%{
+            opacity: 0;
+            top:26px;
+        }
+        100%{
+            opacity: 1;
+            top:37px;
+        }
+    }
+    /**************************/
+    .befirst{
+        height: 550px;
+        background: url(be-the-first-bg33.jpg);
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-attachment: fixed;
+        margin-bottom: 20%;
+    }
+    .befirst-center h2{
+        margin: 0px;
+        padding-top: 110px;
+        color: #fff;
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .befirst-center p{
+        margin: 0px;
+        padding-top: 10px;
+        color: #fff;
+        font-size: 25px;
+    }
+    .befirst-img img {
+        width: 400px;
+        margin: 20px;
+        
+    }
+    .feature{
+        width: 100%;
+        height: 300px;
+        text-align: center;
+    }
+    .feature .one{
+        width: 29%;
+        float: left;
+        padding:0px 20px;
+    }
+    .feature .one h2{
+        font-size: 22px;
+        text-align: justify;
+    }
+    .feature .one p{
+        color: #777;
+        text-align: justify;
+    }
+     #o1 h2 {
+        border-top: 3px solid #6d3f96;
+         padding-top: 15px;
+        
+    }
+    #o2{
+        padding-left: 30px;
+    }
+    #o2 h2 {
+        border-top: 3px solid darkturquoise ;
+         padding-top: 15px;
+        
+        
+    }
+    #o3{
+        padding-left: 30px;
+    }
+    #o3 h2 {
+        border-top: 3px solid gold ;
+         padding-top: 15px;
+        
+    }
+    /****************************/
+    .pricing{
+        height: auto;
+        background:#70cbce;
+        text-align: center;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        
+    }
+    .pricing h2{
+        color: #fff;
+        font-size: 45px;
+        margin-bottom: 0px;
+        
+    }
+    .pricing p{
+        color: #fff;
+        font-size: 18px;
+    }
+    .pricing .pricing-flex{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    .pricing .pricing-item{
+        width: 30% ;
+            
+    }
+    .pricing .pricing-item:nth-of-type(1),  .pricing .pricing-item:nth-of-type(3){
+        margin-top: 2.5%;
+        
+        
+    }
+    .pricing .pricing-item ul{
+        list-style: none;
+        width: 100%;
+        
+        
+    }
+    .pricing .pricing-item ul li{
+    background: #fff;
+    
+    }
+    .pricing .pricing-item ul li.one{
+        background: #000;
+        color: #ccc;
+        padding: 15px;
+        font-size: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    }
+    .pricing .pricing-item ul li.two{
+        background: #222;
+        color: #fff;
+        padding: 15px;
+        font-size: 26px;
+        font-weight: bold;
+    
+    }
+    .pricing .pricing-item ul:hover{
+        margin-top: -8px;
+        transition: all .8s ease-in-out;
+    }
+    .pricing .pricing-item ul:hover li.two{
+        background: #aaa;
+        transition: all .5s ease-in-out;
+    }
+    .pricing .pricing-item ul li.last:hover{
+        background: #ddd;
+        transition: all .5s ease-in-out;
+    }
+    .pricing .pricing-item ul li.two small{
+        color: #777;
+    }
+    .pricing .pricing-item ul li.three{
+        color: #555;
+        padding: 30px;
+        font-size: 15px;
+        border-bottom: 1px solid #ddd;
+    
+    }
+    .same{
+    color: #000;
+        font-size:20px;
+        border-bottom: 1px solid #ddd;
+        padding: 15px;
+    }
+    .last{
+    padding: 15px;
+        color: darkturquoise;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    /********************************/
+    .input{
+        height: auto;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: center;
+        background: #f2f2f2
+    }
+    ::placeholder{
+        color: #aaa;
+    }
+    .input i{
+        color: darkturquoise;
+        border: 2px solid darkturquoise;
+        border-radius: 50%;
+        padding: 15px;
+    
+    }
+    .input h2{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    .input p{
+        font-size: 15px;
+    }
+    .input input{
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    .input button{
+        width: 150px;
+        height:50px;
+        background-color: darkturquoise;
+        color: #fff;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+        text-transform: uppercase;
+        border-radius: 5px;
+    }
+    .info{
+        padding-top:5%;
+        padding-bottom: 5%;
+       
+    }
+    .info hr{
+        height: 2px;
+        border: 0;
+        background: #e8eaea;
+    }
+    .allinfo{
+        width: 70%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .image{
+        width: 20%;
+        float: left;
+        
+    }
+    .topic{
+        width: 80%;
+        float: left;
+    }
+    .topic p{
+        color: #777;
+    }
+    .topic span{
+        font-weight: bold;
+        color: #555;
+    }
+    footer{
+        
+        padding-bottom: 10%;
+        color: #666;
+    }
+    footer .left{
+        float: left;
+        font-size: 20px;
+    }
+    footer .left span{
+        padding-right: 10px;
+    }
+    .left i:hover{
+        color: darkturquoise;
+    }
+    footer .right{
+        float: right;
+        color:#aaa 
+    }
+    
